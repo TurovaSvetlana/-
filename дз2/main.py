@@ -24,7 +24,10 @@ for f in m:
 
 
 st='пир мор молоко хлеб снег компьютер'
-print(st.split())
+st=st.split(' ')
+
+for i,el in enumerate(st):
+    print(i,el)
 
 
 
